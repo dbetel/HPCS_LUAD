@@ -19,4 +19,4 @@ _IGO16318_ - Contains the Jupyter notebook to process FACS sorted 16 week KPfrt 
 _IGO15488\_1_ - Contains the Jupyter notebook to process FACS sorted 14 week KP Rosa26-tdTomato/+ tumors.  
 _IGO15488\_2_ - Contains the Jupyter notebook to process FACS sorted 14 week KP Rosa26-tdTomato/+ tumors.  
 _IGO15488\_1\_2\_combined_ - Contains the Jupyter notebook to concatenate IGO15488\_1 and IGO15488\_2. Run after processing the code in IGO15488\_1 and IGO15488\_2.  
-_Slc4a11\_tracing\_depletion\_analysis_ - Contains the Jupyter notebook to process depletion cohort (IGO15123\_IGO15342\_combined), traced cohort (IGO15600\_IGO15601\_IGO15771), and untraced control (IGO15488_1_2) in a uniform manner. Generates data for Fig 1, 2, and 4, as well as Extended Data Fig 4, 5, and 7.
+_Slc4a11\_tracing\_depletion\_analysis_ - Contains the Jupyter notebooks to process depletion cohort (IGO15123\_IGO15342\_combined), traced cohort (IGO15600\_IGO15601\_IGO15771), and untraced control (IGO15488_1_2) in a uniform manner. Generates data for Fig 1, 2, and 4, as well as Extended Data Fig 4, 5, and 7.
