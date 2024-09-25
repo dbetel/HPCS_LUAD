@@ -1,0 +1,11 @@
+
+*.h5ad
+*.h5
+.DS_Store
+*.xlsx
+figures*
+write*
+~*
+*.svg
+.ipynb_checkpoints*
+*.joblib
