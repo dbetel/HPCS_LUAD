@@ -1,8 +1,11 @@
 # HPCS_LUAD
 Code base for high-plasticity cell state in lung adenocarcinoma study by Chan*, Pan* et. al. 
 
+_Requirements_: SCANPY, AnnData, Scipy
+
 ## Processing of 10x Single Cell Mouse Sequencing Data (recommended to run these in the order shown).
 
+_Marjanovic\_et\_al\_2020_ - Contains the Jupyter notebook to process the data from Marjanovic*, Hofree*, Chan* et al., Cancer Cell 2020. A prerequisite to classify the cell states required to generate the figures in the paper.  
 _IGO14143_ - Contains the Jupyter notebook to process FACS sorted 16 week KPfrt Slc4a11-MCD/+ Hipp11-GGCB/+ tumors traced for 2 weeks post Tamoxifen. Generates data for Figure 1h.  
 _IGO15600_ - Contains the Jupyter notebook to process FACS sorted 14 week KPfrt Slc4a11-MCD/+ Rosa26-mTmG/+ tumors traced for 2 weeks post Tamoxifen.  
 _IGO15601_ - Contains the Jupyter notebook to process FACS sorted 8 week KPfrt Slc4a11-MCD/+ Rosa26-mTmG/+ tumors traced for 2 weeks post Tamoxifen.  
