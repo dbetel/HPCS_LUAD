@@ -7,6 +7,8 @@ _Requirements_: SCANPY, AnnData, Scipy
 
 All generated sequencing data and count matrices are available at the NCBI Gene-Expression Omnibus under accession record GSE277777.
 
+_Part1.conda.env_ - Conda package list used to analyze data from Part 1. Use "conda create --name <env> --file Part1.conda.env" to recreate the environment used to analyze the data in from this section.  Data originally run on a conda environment within an Intel Mac OS X environment.
+
 **_Marjanovic\_et\_al\_2020_** - Contains the Jupyter notebook to process the data from Marjanovic*, Hofree*, Chan* et al., Cancer Cell 2020. A prerequisite to classify the cell states required to generate the figures in the paper.  
 **_IGO14143_** - Contains the Jupyter notebook to process FACS sorted 16 week KPfrt Slc4a11-MCD/+ Hipp11-GGCB/+ tumors traced for 2 weeks post Tamoxifen. Generates data for Figure 1h.  
 **_IGO15600_** - Contains the Jupyter notebook to process FACS sorted 14 week KPfrt Slc4a11-MCD/+ Rosa26-mTmG/+ tumors traced for 2 weeks post Tamoxifen.  
