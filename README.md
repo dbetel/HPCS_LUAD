@@ -11,7 +11,7 @@ _Part1.conda.env_ - Conda package list used to analyze data from Part 1. Use "co
 
 **_Marjanovic\_et\_al\_2020_** - Contains the Jupyter notebook to process the data from Marjanovic*, Hofree*, Chan* et al., Cancer Cell 2020. A prerequisite to classify the cell states required to generate the figures in the paper.
 
-**_IGO14143_-Validation of Reporter** - Contains the Jupyter notebook to process FACS sorted 16 week KP Slc4a11-MCD/+ Hipp11-GGCB/+ tumors traced for 2 weeks post Tamoxifen. Generates data for Figure 1h, validation fo the Slc4a11-MCD reporter.  
+**_IGO14143_-Validation of Reporter** - Contains the Jupyter notebook to process FACS sorted 16 week KP Slc4a11-MCD/+ Hipp11-GGCB/+ tumors traced for 2 weeks post Tamoxifen. Generates data for Figure 1h, validation of the Slc4a11-MCD reporter.  
 
 **_tracing_** - Contains the Jupyter notebooks to process KP Slc4a11-MCD/+ Rosa26-mTmG/+ tumors used in tracing experiments.  
    1. **_IGO15600_** - Contains the Jupyter notebook to process FACS sorted 14 week KP Slc4a11-MCD/+ Rosa26-mTmG/+ tumors traced for 2 weeks post Tamoxifen.  
