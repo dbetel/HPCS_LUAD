@@ -9,3 +9,8 @@ write*
 *.svg
 .ipynb_checkpoints*
 *.joblib
+
+plastic/write/*
+plastic/data/*
+plastic/figures/*
+
