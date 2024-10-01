@@ -9,6 +9,8 @@ All generated sequencing data and count matrices are available at the NCBI Gene-
 
 _Part1.conda.env_ - Conda package list used to analyze data from Part 1. Use "conda create --name <env> --file Part1.conda.env" to recreate the environment used to analyze the data in from this section.  Data originally run on a conda environment within an Intel Mac OS X environment.
 
+![Part I](https://github.com/user-attachments/assets/c8921d66-b8d8-49bf-b5af-bd729c69074b)
+
 **_Marjanovic\_et\_al\_2020_** - Contains the Jupyter notebook to process the data from Marjanovic*, Hofree*, Chan* et al., Cancer Cell 2020. A prerequisite to classify the cell states required to generate the figures in the paper.
 
 **_IGO14143_-Validation of Reporter** - Contains the Jupyter notebook to process FACS sorted 16 week KP Slc4a11-MCD/+ Hipp11-GGCB/+ tumors traced for 2 weeks post Tamoxifen. Generates data for Figure 1h, validation of the Slc4a11-MCD reporter.  
