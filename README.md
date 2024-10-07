@@ -45,6 +45,8 @@ Each dataset was downloaded individually then quality control and analysis was d
 
 Then the information was aggregated an copmared in the hpcsQuant file to generate the figures.
 
+We used the panCancerEnv.yml to create a conda environment to run the files below.
+
 ### Information Table
 
 | Tissue        | ipynb File                | Gene Signature| Figure       | PMID     |
