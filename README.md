@@ -39,11 +39,11 @@ _Part1.conda.env_ - Conda package list used to analyze data from Part 1. Use "co
 
 ## Part 2 - Processing of previously published scRNA-seq data
 
-We downloaded publicly available scRNA-seq data from mouse and human studies across different tissues including colon, skin, prostate, pancreas, and breast. Below is the breakdown of which files were used to analize the data and the corresponding figures in the publication.
+We downloaded publicly available scRNA-seq data from mouse and human studies across different tissues including colon, skin, prostate, pancreas, and breast. Below is the breakdown of which files were used to analyze the data and the corresponding figures in the publication.
 
-Each dataset was downloaded individually then quality control and analysis was done per dataset as run in the assosiated python notebook. 
+Each dataset was downloaded individually then quality control and analysis was done per dataset as run in the associated python notebook. 
 
-Then the information was aggregated an copmared in the hpcsQuant file to generate the figures.
+Then the information was aggregated then compared in the hpcsQuant file to generate the figures.
 
 We used the panCancerEnv.yml to create a conda environment to run the files below.
 
