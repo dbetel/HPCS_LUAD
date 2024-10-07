@@ -38,3 +38,44 @@ _Part1.conda.env_ - Conda package list used to analyze data from Part 1. Use "co
 **_Slc4a11\_tracing\_depletion\_analysis_** - Contains the Jupyter notebooks to process depletion cohort (IGO15123\_IGO15342\_combined), traced cohort (IGO15600\_IGO15601\_IGO15771), and untraced control (IGO15488_1_2) in a uniform manner. Generates data for Fig 1, 2, and 4, as well as Extended Data Fig 4, 5, and 7.
 
 ## Part 2 - Processing of previously published scRNA-seq data
+
+We downloaded publicly available scRNA-seq data from mouse and human studies across different tissues including colon, skin, prostate, pancreas, and breast. Below is the breakdown of which files were used to analize the data and the corresponding figures in the publication.
+
+Each dataset was downloaded individually then quality control and analysis was done per dataset as run in the assosiated python notebook. 
+
+Then the information was aggregated an copmared in the hpcsQuant file to generate the figures.
+
+### Information Table
+
+| Tissue        | ipynb File                | Gene Signature| Figure       | PMID     |
+|---------------|---------------------------|---------------|--------------|----------|
+| **Mouse**     |                           |               |              |          |
+| Colon         | mouseColon                | coreHRC       | 5e (2)       | 36352230 |
+| Skin          | mouseSkin                 | lower spike   | 5e (4)       | 38815020 |
+| Prostate      | mouseProstate             | ADENO         | 5b,c,d,e (3) | 35981096 |
+| Pancreas      | mousePancreas             | Basal         | 5e (3)       | 35952360 |
+| Breast        | mouseBreast               |               |              | 32840210 |
+| Lung          | makeLuadAdata             | HPCS          |              | 32707077 |
+| Lung          | mouseLung                 | DATP          | 5g,h         | 32750316 |
+| Lung          |                           | ADI           | 5i           | 32678092 |
+| Lung          |                           | PATS          | 5i           | 32661339 |
+|               |                           |               |              |          |
+| **Human**     |                           |               |              |          |
+| Colon         | humanColorectalPelka2021  |               |              | 34450029 |
+| Skin          | humanSkinJi2020           |               |              | 32579974 |
+| Prostate      | humanProstateDong2020     |               |              | 33328604 |
+| Pancreas      | humanPancreasSteele2020   |               |              | 34296197 |
+| Breast        | humanBreastPal2021        |               |              | 33950524 |
+| Lung          | humanLungMDA              | KAC           | 5f           | 38418883 |
+| Lung          | humanLungKim              |               |              | 32385277 |
+| Lung          | humanLungBischoff         |               |              | 34663877 |
+| Lung          | humanLungDost             |               |              | 32891189 |
+|               |                           |               |              |          |
+| **Pan Caner** |                           |               |              |          |
+| Yanai         |                           | Stress        | Ex 9         | 35931863 |
+| Tirosh        |                           | Stress        | 5a           | 37258682 |
+
+
+
+
+

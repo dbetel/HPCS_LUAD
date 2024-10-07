@@ -6,7 +6,7 @@
 | mSkin      | mouse_Skin_GSE261766_Pap  | 38815020
 | mProstate  | mouse_Prostate            | 35981096
 | mPancreas  | mouse_Pancreas_TT         | 35952360
-| mBreast    | mouse_BreastPyMT          | 
+| mBreast    | mouse_BreastPyMT          | 32840210
 
 
 
@@ -18,7 +18,7 @@
 | hSkin      | Ji2020_Skin               | 32579974
 | hProstate  | Dong2020_Prostate         | 33328604
 | hPancreas  | Steele2020_Pancreas       | 34296197
-| hBreast    | Pal2021                   | 
+| hBreast    | Pal2021                   | 33950524
 | hLungM     | luadMDA                   | 38418883
 | hLungK     | luadKim                   | 32385277
 | hLungB     | luadBischoff              | 34663877
