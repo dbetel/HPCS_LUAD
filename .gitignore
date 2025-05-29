@@ -9,6 +9,7 @@ write*
 *.svg
 .ipynb_checkpoints*
 *.joblib
+*.prism
 
 plastic/write/*
 plastic/data/*

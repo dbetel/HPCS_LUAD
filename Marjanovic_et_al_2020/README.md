@@ -3,7 +3,7 @@ Part of the code base for analysis of the high-plasticity cell state in lung ade
 
 ## Processing of SmartSeq2 data from Marjanovic*, Hofree*, and Chan* et. al., Cancer Cell 2020 to generate a logistic regression model for cell state classification. 
 
-Note: Run Jupyter-notebooks in the following order (requires data from GSE154989).
+Note: Run Jupyter-notebooks in the following order (requires data from GSE154989 to be placed in a directory 'data' found in the main folder).
 
 **_01_makeLuadAdata.ipynb_** - Jupyter notebook to process data from Marjanovic*, Hofree*, and Chan* et. al., Cancer Cell 2020 (GSE154989). 
 
