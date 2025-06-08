@@ -10,6 +10,8 @@ write*
 .ipynb_checkpoints*
 *.joblib
 *.prism
+toupdate.txt
+
 
 plastic/write/*
 plastic/data/*
