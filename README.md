@@ -53,35 +53,39 @@ We used the panCancerEnv.yml to create a conda environment to run the files belo
 
 ### Information Table
 
-| Tissue         | ipynb File                | Gene Signature| Figure       | PMID     |
-|----------------|---------------------------|---------------|--------------|----------|
-| **Mouse**      |                           |               |              |          |
-| Colon          | mouseColon                | coreHRC       | 5e (2)       | 36352230 |
-| Skin           | mouseSkin                 | lower spike   | 5e (4)       | 38815020 |
-| Prostate       | mouseProstate             | ADENO         | 5b,c,d,e (3) | 35981096 |
-| Pancreas       | mousePancreas             | Basal         | 5e (3)       | 35952360 |
-| Breast         | mouseBreast               |               |              | 32840210 |
-| Lung           | makeLuadAdata             | HPCS          |              | 32707077 |
-| Lung           | mouseLung                 | DATP          | 5g,h         | 32750316 |
-| Lung           |                           | ADI           | 5i           | 32678092 |
-| Lung           |                           | PATS          | 5i           | 32661339 |
-|                |                           |               |              |          |
-| **Human**      |                           |               |              |          |
-| Colon          | humanColorectalPelka2021  |               |              | 34450029 |
-| Skin           | humanSkinJi2020           |               |              | 32579974 |
-| Prostate       | humanProstateDong2020     |               |              | 33328604 |
-| Pancreas       | humanPancreasSteele2020   |               |              | 34296197 |
-| Breast         | humanBreastPal2021        |               |              | 33950524 |
-| Lung           | humanLungMDA              | KAC           | 5f           | 38418883 |
-| Lung           | humanLungKim              |               |              | 32385277 |
-| Lung           | humanLungBischoff         |               |              | 34663877 |
-| Lung           | humanLungDost             |               |              | 32891189 |
-|                |                           |               |              |          |
-| **Pan Cancer** |                           |               |              |          |
-| Yanai          |                           | Stress        | Ex 9         | 35931863 |
-| Tirosh         |                           | Stress        | 5a           | 37258682 |
-
-
+| Tissue        | ipynb File                | Gene Signature| Figure       | PMID     |
+|---------------|---------------------------|---------------|--------------|----------|
+| **Mouse**     |                           |               |              |          |
+| Colon         | mouseColon                | coreHRC       | 5e (2)       | 36352230 |
+| Skin          | mouseSkin                 | lower spike   | 5e (4)       | 38815020 |
+| Prostate      | mouseProstate             | ADENO         | 5b,c,d,e (3) | 35981096 |
+| Pancreas_T    | mousePancreas             | Basal         | 5e (3)       | 35952360 |
+| Pancreas_B    |                           |               |              | 33536616 | 
+| Breast        | mouseBreast               |               |              | 32840210 |
+| Lung          | makeLuadAdata             | HPCS          |              | 32707077 |
+| Lung          | mouseLung                 | DATP          | 5g,h         | 32750316 |
+| Lung          |                           | ADI           | 5i           | 32678092 |
+| Lung          |                           | PATS          | 5i           | 32661339 |
+| Skin Injury   |                           | wound         |              | 32187560 | 
+| Colon Injury  |                           | revSSR, revSC |              | 37162959 | 
+|               |                           |               |              |          |
+| **Human**     |                           |               |              |          |
+| Colon         | humanColorectalPelka2021  |               |              | 34450029 |
+| Skin          | humanSkinJi2020           |               |              | 32579974 |
+| Prostate      | humanProstateDong2020     |               |              | 33328604 |
+| Pancreas      | humanPancreasSteele2020   |               |              | 34296197 |
+| Breast        | humanBreastPal2021        |               |              | 33950524 |
+| Lung          | humanLungMDA              | KAC           | 5f           | 38418883 |
+| Lung          | humanLungKim              |               |              | 32385277 |
+| Lung          | humanLungBischoff         |               |              | 34663877 |
+| Lung          | humanLungDost             |               |              | 32891189 |
+| HeadandNeck_C |                           |               |              | 34921143 |
+| HeadandNeck_K |                           |               |              | 32686767 |
+| Ovarian       |                           |               |              | 35196078 |
+|               |                           |               |              |          |
+| **Pan Caner** |                           |               |              |          |
+| Yanai         |                           | Stress        | Ex 9         | 35931863 |
+| Tirosh        |                           | Stress        | 5a           | 37258682 |
 
 
 
