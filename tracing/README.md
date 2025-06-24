@@ -17,4 +17,6 @@ Process and combine the lanes used in the 2 week tracing experiments from _KP Sl
 
 **_IGO16686_** - Contains the Jupyter notebook to process FACS sorted 12 week + 3 days _KP Slc4a11<sup>MCD/+</sup> Rosa26<sup>mTmG/+</sup>_ tumors traced for 3 days post Tamoxifen.   
 
-**_IGO15600\_IGO15601\_IGO15771\_IGO16686_combined_** - Contains the Jupyter notebook to concatenate IGO15600, IGO15601, and IGO15771. Run after processing the code in IGO15600, IGO15601, IGO15771, and IGO16686.  
+**_IGO17402_** - Contains the Jupyter notebook to process FACS sorted 6 week + 3 days _KP Slc4a11<sup>MCD/+</sup> Rosa26<sup>mTmG/+</sup>_ tumors traced for 3 days post Tamoxifen.   
+
+**_IGO15600\_IGO15601\_IGO15771\_IGO16686\_IGO17402_combined_** - Contains the Jupyter notebook to concatenate IGO15600, IGO15601, IGO15771, IGO16686, and IGO17402. Run after processing the code in IGO15600, IGO15601, IGO15771, IGO16686, and IGO17402.  
