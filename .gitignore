@@ -11,7 +11,11 @@ write*
 *.joblib
 *.prism
 toupdate.txt
-
+*.pdf
+*.ai
+*.zip
+*.swp
+*.prism
 
 plastic/write/*
 plastic/data/*

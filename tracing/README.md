@@ -7,7 +7,7 @@ _Requirements_: SCANPY, AnnData, Scipy
 
 All generated sequencing data and count matrices are available at the NCBI Gene-Expression Omnibus under accession record GSE277777.
 
-Process and combine the lanes used in the 2 week tracing experiments from _KP Slc4a11<sup>MCD/+</sup> Rosa26<sup>mTmG/+</sup>_ tumors.
+Process and combine the lanes used in the 3d and 14d tracing experiments from _KPfrt Slc4a11<sup>MCD/+</sup> or KPfrt Hopx<sup>MACD/+</sup> Rosa26<sup>mTmG/+</sup>_ tumors.
 
 **_IGO15600_** - Contains the Jupyter notebook to process FACS sorted 14 week _KP Slc4a11<sup>MCD/+</sup> Rosa26<sup>mTmG/+</sup>_ tumors traced for 2 weeks post Tamoxifen.  
 
@@ -17,6 +17,8 @@ Process and combine the lanes used in the 2 week tracing experiments from _KP Sl
 
 **_IGO16686_** - Contains the Jupyter notebook to process FACS sorted 12 week + 3 days _KP Slc4a11<sup>MCD/+</sup> Rosa26<sup>mTmG/+</sup>_ tumors traced for 3 days post Tamoxifen.   
 
-**_IGO17543_** - Contains the Jupyter notebook to process FACS sorted 6 week + 3 days _KP Slc4a11<sup>MCD/+</sup> Rosa26<sup>mTmG/+</sup>_ tumors traced for 3 days post Tamoxifen.  Also contains FACS sorted 12 week + 3 days _KP Hopx<sup>MACD/+</sup> Rosa26<sup>mTmG/+</sup>_ tumors traced for 3 days post Tamoxifen. 
+**_IGO17402_** - Contains the Jupyter notebook to process FACS sorted 6 week + 3 days _KP Slc4a11<sup>MCD/+</sup> Rosa26<sup>mTmG/+</sup>_ tumors traced for 3 days post Tamoxifen.  Also contains FACS sorted 12 week + 3 days _KP Hopx<sup>MACD/+</sup> Rosa26<sup>mTmG/+</sup>_ tumors traced for 3 days post Tamoxifen. 
+
+**_IGO17543.ipynb_** - Contains the Jupyter notebook to process KPfrt Hopx-MACD/+ Rosa26-mTmG/+ tumors harvested 12 weeks post tumor induction after 14 days of tracing induction with Tamoxifen.
 
 **_IGO15600\_IGO15601\_IGO15771\_IGO16686\_IGO17402\_IGO17543\_combined_** - Contains the Jupyter notebook to concatenate IGO15600, IGO15601, IGO15771, IGO16686, IGO17402, and IGO17543. Run after processing the code in IGO15600, IGO15601, IGO15771, IGO16686, IGO17402, and IGO17543.  
