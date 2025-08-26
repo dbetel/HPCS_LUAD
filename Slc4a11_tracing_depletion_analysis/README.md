@@ -7,8 +7,10 @@ Part of the code base for analysis of the high-plasticity cell state in lung ade
 
 **_02\_Analyze\_control\_DT\_depletion.ipynb_** - Jupyter notebook to evaluate tumor control and 7 day DT treated tumor cells. Uses depletion cohort (IGO15123\_IGO15342\_combined). Generates data for Fig 1a, 1b (similar to Extended Data Fig 4b), 1h, Extended Data Fig 4b, 9a, 10c.  
 
-**_03\_Evaluate\_traced\_cells_Slc4a11.ipynb_** - Jupyter notebook to evaluate traced cells. Uses traced cohorts (IGO15600, IGO15601, IGO15771, IGO16686, IGO17402) and untraced control (IGO15488_1_2). Generates data for Fig 2d,f-h, Extended Data Fig 7a-e,f
+**_03\_Generate\_Hopx_MACD\_Figures.ipynb\_** - Jupyter notebook to evaluate Hopx-MACD GGCB/+ tumor cells (IGO14143). Generates data for Fig 1a, 1b (similar to Extended Data Fig 4b), 1h, Extended Data Fig 4b, 9a, 10c.  
 
-**_04\_Evaluate\_traced\_cells_Hopx.ipynb_** - Jupyter notebook to evaluate traced cells. Uses traced cohorts (IGO17402, IGO17543) and untraced control (IGO16318). Generates data for Fig 2d-i, Extended Data Fig 5a-h
+**_04\_Evaluate\_traced\_cells_Slc4a11.ipynb_** - Jupyter notebook to evaluate traced cells. Uses traced cohorts (IGO15600, IGO15601, IGO15771, IGO16686, IGO17402) and untraced control (IGO15488_1_2). Generates data for Fig 2d,f-h, Extended Data Fig 7a-e,f
 
-**_05\_Evaluate\_phenotypic\_volumes.ipynb_** - Jupyter notebook to evaluate phenotypic volume of the cohorts. Uses traced cohorts (IGO15600, IGO15601, IGO15771, IGO16686, IGO17402, IGO17543) and untraced controls (IGO15488_1_2, IGO16318). Generates data for Fig, Extended Data Fig 5a-h
+**_05\_Evaluate\_traced\_cells_Hopx.ipynb_** - Jupyter notebook to evaluate traced cells. Uses traced cohorts (IGO17402, IGO17543) and untraced control (IGO16318). Generates data for Fig 2d-i, Extended Data Fig 5a-h
+
+**_06\_Evaluate\_phenotypic\_volumes.ipynb_** - Jupyter notebook to evaluate phenotypic volume of the cohorts. Uses traced cohorts (IGO15600, IGO15601, IGO15771, IGO16686, IGO17402, IGO17543) and untraced controls (IGO15488_1_2, IGO16318). Generates data for Fig, Extended Data Fig 5a-h
