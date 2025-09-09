@@ -11,16 +11,18 @@ _Part1.conda.env_ - Conda package list used to analyze data from Part 1. Use "co
 
 ![Part I](https://github.com/user-attachments/assets/c8921d66-b8d8-49bf-b5af-bd729c69074b)
 
-**_Marjanovic\_et\_al\_2020_** - Contains the Jupyter notebook to process the data from Marjanovic*, Hofree*, Chan* et al., Cancer Cell 2020. A prerequisite to classify the cell states required to generate the figures in the paper.
+**_Marjanovic\_et\_al\_2020_** - Contains the Jupyter notebook to process the data from Marjanovic*, Hofree*, Chan* et al., Cancer Cell 2020. A prerequisite to classify the cell states required to generate the figures in the paper. Creates data for Extended Data Fig. 6 and 13.
 
-**_IGO14143_-Validation of Reporter** - Contains the Jupyter notebook to process FACS sorted 16 week _KP Slc4a11<sup>MCD/+</sup> Hipp11<sup>GGCB/+<sup>_ tumors traced for 2 weeks post Tamoxifen. Generates data for Figure 1h, validation of the _Slc4a11<sup>MCD/+</sup>_ reporter.  
+**_IGO14143_-Validation of Reporter** - Contains the Jupyter notebook to process FACS sorted 16 week _KP Slc4a11<sup>MCD/+</sup> Hipp11<sup>GGCB/+<sup>_ tumors traced for 2 weeks post Tamoxifen. Generates data for Figure 1, validation of the _Slc4a11<sup>MCD/+</sup>_ reporter.  
 
 **_tracing_** - Contains the Jupyter notebooks to process _KP Slc4a11<sup>MCD/+</sup> Rosa26<sup>mTmG/+</sup>_ tumors used in tracing experiments.  
    1. **_IGO15600_** - Contains the Jupyter notebook to process FACS sorted 14 week _KP Slc4a11<sup>MCD/+</sup> Rosa26<sup>mTmG/+</sup>_ tumors traced for 2 weeks post Tamoxifen.  
    2. **_IGO15601_** - Contains the Jupyter notebook to process FACS sorted 8 week _KP Slc4a11<sup>MCD/+</sup> Rosa26<sup>mTmG/+</sup>_ tumors traced for 2 weeks post Tamoxifen.  
    3. **_IGO15771_** - Contains the Jupyter notebook to process FACS sorted 14 week _KP Slc4a11<sup>MCD/+</sup> Rosa26<sup>mTmG/+</sup>_ tumors traced for 2 weeks post Tamoxifen.  
-   4. **_IGO16686_** - Contains the Jupyter notebook to process FACS sorted 12 week + 3 days _KP Slc4a11<sup>MCD/+</sup> Rosa26<sup>mTmG/+</sup>_ tumors traced for 3 days post Tamoxifen.   
-   5. **_IGO15600\_IGO15601\_IGO15771\_IGO16686\_combined_** - Contains the Jupyter notebook to concatenate IGO15600, IGO15601, and IGO15771. Run after processing the code in IGO15600, IGO15601, and IGO15771.
+   4. **_IGO16686_** - Contains the Jupyter notebook to process FACS sorted 12 week + 3 days _KP Slc4a11<sup>MCD/+</sup> Rosa26<sup>mTmG/+</sup>_ tumors traced for 3 days post Tamoxifen.
+   5. **_IGO17402_** - Contains the Jupyter notebook to process FACS sorted 6 week + 3 days _KP Slc4a11<sup>MCD/+</sup> Rosa26<sup>mTmG/+</sup>_ tumors traced for 3 days post Tamoxifen.  Also contains FACS sorted 12 week + 3 days _KP Hopx<sup>MACD/+</sup> Rosa26<sup>mTmG/+</sup>_ tumors traced for 3 days post Tamoxifen.
+   6. **_IGO17543.ipynb_** - Contains the Jupyter notebook to process KPfrt Hopx-MACD/+ Rosa26-mTmG/+ tumors harvested 12 weeks post tumor induction after 14 days of tracing induction with Tamoxifen.
+   7. **_IGO15600\_IGO15601\_IGO15771\_IGO16686\_combined_** - Contains the Jupyter notebook to concatenate IGO15600, IGO15601, and IGO15771. Run after processing the code in IGO15600, IGO15601, and IGO15771.
 
 **_untraced_control_** - Contains Jupyter notebooks to process _KPT_ tumors that are untraced.  
   1. **_IGO15488\_1_** - Contains the Jupyter notebook to process FACS sorted 14 week _KP Rosa26<sup>tdTomato/+</sup>_ tumors.  
@@ -29,17 +31,19 @@ _Part1.conda.env_ - Conda package list used to analyze data from Part 1. Use "co
  
 **_depletion_** - Contains the Jupyter notebooks to process _KP Slc4a11<sup>MCD/+</sup> Rosa26<sup>GGCB/+</sup>_ tumors ablated using diphtheria toxin.  
    1. **_IGO15123_** - Contains the Jupyter notebook to process FACS sorted 16 week _KP Slc4a11<sup>MCD/+</sup> Rosa26<sup>GGCB/+</sup>_ tumors ablated for 1 week via diphitheria toxin treatment.  
-   2. **_IGO15342_** - Contains the Jupyter notebook to process FACS sorted 16 week _KP Slc4a11<sup>MCD/+</sup> Rosa26<sup>GGCB/+</sup>_ tumors ablated for 1 week via diphtheria toxin treatment.  
+   2. **_IGO15342_** - Contains the Jupyter notebook to process FACS sorted 15 week _KP Slc4a11<sup>MCD/+</sup> Rosa26<sup>GGCB/+</sup>_ tumors ablated for 1 week via diphtheria toxin treatment.  
    3. **_IGO15123\_IGO15342\_combined_** - Contains the Jupyter notebook to concatenate IGO15123 and IGO15342. Run after processing the code in IGO15123 and IGO15342.
 
 **_drug_treatments_** - Contains the Jupyter notebooks to process _KP Slc4a11<sup>MCD/+</sup> Rosa26<sup>mTmG/+</sup>_ tumors lineage traced under treatment with either cisplatin or MRTX1133.  
-   1. **_IGO16235_** - Contains the Jupyter notebook to process FACS sorted 17 week _KP Slc4a11<sup>MCD/+</sup> Rosa26<sup>mTmG/+</sup>_ tumors lineage traced with Tamoxifen and treated with either vehicle, cisplatin, or MRTX1133 for 3 weeks. Generates data for Figure 4c,d. Note: code to generate data for Figure 4c is commented out by default given long runtime.  
-   2. **_IGO16562_** - Contains the Jupyter notebook to process FACS sorted 17 week _KP Slc4a11<sup>MCD/+</sup> Rosa26<sup>mTmG/+</sup>_ tumors lineage traced with Tamoxifen and treated with either vehicle, cisplatin, or MRTX1133 for 3 weeks. Generates data for Figure 4c,d. Note: code to generate data for Figure 4c is commented out by default given long runtime.  
-   3. **_IGO16235\_IGO16562\_combined_** - Contains the Jupyter notebook to concatenate IGO16235 and IGO16562. Run after processing the code in IGO16235 and IGO16562.  
+   1. **_IGO16235_** - Contains the Jupyter notebook to process FACS sorted 17 week _KP Slc4a11<sup>MCD/+</sup> Rosa26<sup>mTmG/+</sup>_ tumors lineage traced with Tamoxifen and treated with either vehicle, cisplatin, or MRTX1133 for 3 weeks.
+   2. **_IGO16562_** - Contains the Jupyter notebook to process FACS sorted 17 week _KP Slc4a11<sup>MCD/+</sup> Rosa26<sup>mTmG/+</sup>_ tumors lineage traced with Tamoxifen and treated with either vehicle, cisplatin, or MRTX1133 for 3 weeks.
+   3. **_IGO16235\_IGO16562\_combined_** - Contains the Jupyter notebook to concatenate IGO16235 and IGO16562. Run after processing the code in IGO16235 and IGO16562. Generates data for Figure 4.
 
-**_IGO16318-Hopx-MACD-validation_** - Contains the Jupyter notebook to process FACS sorted 16 week _KP Hopx<sup>MACD/+</sup> Hipp11<sup>GGCB/+</sup>_ tumors. Generates data for Extended Data Figures 6h-j.  
+**_IGO16318-Hopx-MACD-validation_** - Contains the Jupyter notebook to process FACS sorted 16 week _KP Hopx<sup>MACD/+</sup> Hipp11<sup>GGCB/+</sup>_ tumors. Generates data for Extended Data Figures 9.  
 
-**_Slc4a11\_tracing\_depletion\_analysis_** - Contains the Jupyter notebooks to process depletion cohort (IGO15123\_IGO15342\_combined), traced cohort (IGO15600\_IGO15601\_IGO15771), and untraced control (IGO15488_1_2) in a uniform manner. Generates data for Fig 1, 2, and 4, as well as Extended Data Fig 4, 5, and 7.
+**_Slc4a11\_tracing\_depletion\_analysis_** - Contains the Jupyter notebooks to process depletion cohort (IGO15123\_IGO15342\_combined), traced cohort (IGO15600\_IGO15601\_IGO15771\_IGO16686\_IGO17402\_IGO17543), and untraced control cohort (IGO15488_1_2 and IGO16318) in a uniform manner. Generates data for Fig. 1, and 2, as well as Extended Data Fig. 4, 7, 8, 9, 10, 12, and 17.
+
+**_transplant\_model_** - Contains the Jupyter notebook to concatenate and process FACS sorted IV transplanted _KPfrt Slc4a11<sup>MACD/+</sup>_ cells treated with Saline or DT for 7 days. Generates data for Extended Fig. 14.
 
 ## Part 2 - Processing of previously published scRNA-seq data
 
@@ -50,6 +54,8 @@ Each dataset was downloaded individually then quality control and analysis was d
 Then the information was aggregated then compared in the hpcsQuant file to generate the figures.
 
 We used the panCancerEnv.yml to create a conda environment to run the files below.
+
+Generates data for Fig. 5 and Extended Data Fig. 17, 18.
 
 ### Information Table
 
