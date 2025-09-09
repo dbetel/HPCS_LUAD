@@ -9,7 +9,7 @@ All generated sequencing data and count matrices are available at the NCBI Gene-
 
 _Part1.conda.env_ - Conda package list used to analyze data from Part 1. Use "conda create --name <env> --file Part1.conda.env" to recreate the environment used to analyze the data in from this section.  Data originally run on a conda environment within an Intel Mac OS X environment.
 
-![Part I](https://github.com/user-attachments/assets/c8921d66-b8d8-49bf-b5af-bd729c69074b)
+![Part I Summary Image](Part1_Overview.png)
 
 **_Marjanovic\_et\_al\_2020_** - Contains the Jupyter notebook to process the data from Marjanovic*, Hofree*, Chan* et al., Cancer Cell 2020. A prerequisite to classify the cell states required to generate the figures in the paper. Creates data for Extended Data Fig. 6 and 13.
 
