@@ -41,7 +41,7 @@ _Part1.conda.env_ - Conda package list used to analyze data from Part 1. Use "co
 
 **_IGO16318-Hopx-MACD-validation_** - Contains the Jupyter notebook to process FACS sorted 16 week _KP Hopx<sup>MACD/+</sup> Hipp11<sup>GGCB/+</sup>_ tumors. Generates data for Extended Data Figures 9.  
 
-**_Slc4a11\_tracing\_depletion\_analysis_** - Contains the Jupyter notebooks to process depletion cohort (IGO15123\_IGO15342\_combined), traced cohort (IGO15600\_IGO15601\_IGO15771\_IGO16686\_IGO17402\_IGO17543), and untraced control cohort (IGO15488_1_2 and IGO16318) in a uniform manner. Generates data for Fig. 1, and 2, as well as Extended Data Fig. 4, 7, 8, 9, 10, 12, and 17.
+**_tracing\_depletion\_analysis_** - Contains the Jupyter notebooks to process depletion cohort (IGO15123\_IGO15342\_combined), traced cohort (IGO15600\_IGO15601\_IGO15771\_IGO16686\_IGO17402\_IGO17543), and untraced control cohort (IGO15488_1_2 and IGO16318) in a uniform manner. Generates data for Fig. 1, and 2, as well as Extended Data Fig. 4, 7, 8, 9, 10, 12, and 17.
 
 **_transplant\_model_** - Contains the Jupyter notebook to concatenate and process FACS sorted IV transplanted _KPfrt Slc4a11<sup>MACD/+</sup>_ cells treated with Saline or DT for 7 days. Generates data for Extended Fig. 14.
 
