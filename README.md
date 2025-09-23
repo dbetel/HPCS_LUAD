@@ -89,7 +89,7 @@ Generates data for Fig. 5 and Extended Data Fig. 17, 18.
 | HeadandNeck_K |                           |               | 5a,c; ED17a              | 32686767 |
 | Ovarian       |                           |               | 5a,c; ED17a              | 35196078 |
 |               |                           |               |                          |          |
-| **Pan Caner** |                           |               |                          |          |
+| **Pan Cancer** |                          |               |                          |          |
 | Yanai         |                           | Stress        | ED17a                    | 35931863 |
 | Tirosh        |                           | Stress        | 5a                       | 37258682 |
 
