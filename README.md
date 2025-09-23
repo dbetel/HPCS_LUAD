@@ -59,39 +59,39 @@ Generates data for Fig. 5 and Extended Data Fig. 17, 18.
 
 ### Information Table
 
-| Tissue        | ipynb File                | Gene Signature| Figure       | PMID     |
-|---------------|---------------------------|---------------|--------------|----------|
-| **Mouse**     |                           |               |              |          |
-| Colon         | mouseColon                | coreHRC       | 5e (2)       | 36352230 |
-| Skin          | mouseSkin                 | lower spike   | 5e (4)       | 38815020 |
-| Prostate      | mouseProstate             | ADENO         | 5b,c,d,e (3) | 35981096 |
-| Pancreas_T    | mousePancreas             | Basal         | 5e (3)       | 35952360 |
-| Pancreas_B    |                           |               |              | 33536616 | 
-| Breast        | mouseBreast               |               |              | 32840210 |
-| Lung          | makeLuadAdata             | HPCS          |              | 32707077 |
-| Lung          | mouseLung                 | DATP          | 5g,h         | 32750316 |
-| Lung          |                           | ADI           | 5i           | 32678092 |
-| Lung          |                           | PATS          | 5i           | 32661339 |
-| Skin Injury   |                           | wound         |              | 32187560 | 
-| Colon Injury  |                           | revSSR, revSC |              | 37162959 | 
-|               |                           |               |              |          |
-| **Human**     |                           |               |              |          |
-| Colon         | humanColorectalPelka2021  |               |              | 34450029 |
-| Skin          | humanSkinJi2020           |               |              | 32579974 |
-| Prostate      | humanProstateDong2020     |               |              | 33328604 |
-| Pancreas      | humanPancreasSteele2020   |               |              | 34296197 |
-| Breast        | humanBreastPal2021        |               |              | 33950524 |
-| Lung          | humanLungMDA              | KAC           | 5f           | 38418883 |
-| Lung          | humanLungKim              |               |              | 32385277 |
-| Lung          | humanLungBischoff         |               |              | 34663877 |
-| Lung          | humanLungDost             |               |              | 32891189 |
-| HeadandNeck_C |                           |               |              | 34921143 |
-| HeadandNeck_K |                           |               |              | 32686767 |
-| Ovarian       |                           |               |              | 35196078 |
-|               |                           |               |              |          |
-| **Pan Caner** |                           |               |              |          |
-| Yanai         |                           | Stress        | Ex 9         | 35931863 |
-| Tirosh        |                           | Stress        | 5a           | 37258682 |
+| Tissue        | ipynb File                | Gene Signature| Figure                   | PMID     |
+|---------------|---------------------------|---------------|--------------------------|----------|
+| **Mouse**     |                           |               |                          |          |
+| Colon         | mouseColon                | coreHRC       | 5a,e; ED17a              | 36352230 |
+| Skin          | mouseSkin                 | lower spike   | 5a,e; ED17a              | 38815020 |
+| Prostate      | mouseProstate             | Plasticity    | 5a,b,c,e; ED17a          | 35981096 |
+| Pancreas_T    | mousePancreas             | Basal         | 5a,b,c,e; ED17a          | 35952360 |
+| Pancreas_B    |                           |               | 5a; ED17a                | 33536616 | 
+| Breast        | mouseBreast               |               | 5a; ED17a                | 32840210 |
+| Lung          | makeLuadAdata             | HPCS          | 5a,b,c,e; ED17a; ED18a,b | 32707077 |
+| Lung          | mouseLung                 | DATP          | 5e; ED17a; ED18b,c       | 32750316 |
+| Lung          |                           | ADI           | 5e                       | 32678092 |
+| Lung          |                           | PATS          | 5e                       | 32661339 |
+| Skin Injury   |                           | wound         | 5e                       | 32187560 | 
+| Colon Injury  |                           | revSSR, revSC | 5e                       | 37162959 | 
+|               |                           |               |                          |          |
+| **Human**     |                           |               |                          |          |
+| Colon         | humanColorectalPelka2021  |               | 5a; ED17a                | 34450029 |
+| Skin          | humanSkinJi2020           |               | 5a,c; ED17a              | 32579974 |
+| Prostate      | humanProstateDong2020     |               | 5a,c; ED17a              | 33328604 |
+| Pancreas      | humanPancreasSteele2020   |               | 5a,c; ED17a              | 34296197 |
+| Breast        | humanBreastPal2021        |               | 5a; ED17a                | 33950524 |
+| Lung          | humanLungMDA              | KAC           | 5a,c; ED17a,b,c          | 38418883 |
+| Lung          | humanLungKim              |               | 5a,c; ED17a              | 32385277 |
+| Lung          | humanLungBischoff         |               | 5a,c; ED17a              | 34663877 |
+| Lung          | humanLungDost             |               | 5a,c; ED17a              | 32891189 |
+| HeadandNeck_C |                           |               | 5a,c; ED17a              | 34921143 |
+| HeadandNeck_K |                           |               | 5a,c; ED17a              | 32686767 |
+| Ovarian       |                           |               | 5a,c; ED17a              | 35196078 |
+|               |                           |               |                          |          |
+| **Pan Caner** |                           |               |                          |          |
+| Yanai         |                           | Stress        | ED17a                    | 35931863 |
+| Tirosh        |                           | Stress        | 5a                       | 37258682 |
 
 
 
