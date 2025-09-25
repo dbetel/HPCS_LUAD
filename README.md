@@ -22,7 +22,7 @@ _Part1.conda.env_ - Conda package list used to analyze data from Part 1. Use "co
    4. **_IGO16686_** - Contains the Jupyter notebook to process FACS sorted 12 week + 3 days _KP Slc4a11<sup>MCD/+</sup> Rosa26<sup>mTmG/+</sup>_ tumors traced for 3 days post Tamoxifen.
    5. **_IGO17402_** - Contains the Jupyter notebook to process FACS sorted 6 week + 3 days _KP Slc4a11<sup>MCD/+</sup> Rosa26<sup>mTmG/+</sup>_ tumors traced for 3 days post Tamoxifen.  Also contains FACS sorted 12 week + 3 days _KP Hopx<sup>MACD/+</sup> Rosa26<sup>mTmG/+</sup>_ tumors traced for 3 days post Tamoxifen.
    6. **_IGO17543_** - Contains the Jupyter notebook to process KPfrt Hopx-MACD/+ Rosa26-mTmG/+ tumors harvested 12 weeks post tumor induction after 14 days of tracing induction with Tamoxifen.
-   7. **_IGO15600\_IGO15601\_IGO15771\_IGO16686\_combined_** - Contains the Jupyter notebook to concatenate IGO15600, IGO15601, and IGO15771. Run after processing the code in IGO15600, IGO15601, and IGO15771.
+   7. **_IGO15600\_IGO15601\_IGO15771\_IGO16686\_IGO17402\_IGO17543\_combined_** - Contains the Jupyter notebook to concatenate IGO15600, IGO15601, and IGO15771. Run after processing the code in IGO15600, IGO15601, and IGO15771.
 
 **_untraced_control_** - Contains Jupyter notebooks to process _KPT_ tumors that are untraced.  
   1. **_IGO15488\_1_** - Contains the Jupyter notebook to process FACS sorted 14 week _KP Rosa26<sup>tdTomato/+</sup>_ tumors.  
