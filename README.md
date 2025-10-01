@@ -51,11 +51,13 @@ We downloaded publicly available scRNA-seq data from mouse and human studies acr
 
 Each dataset was downloaded individually then quality control and analysis was done per dataset as run in the associated python notebook. 
 
-Then the information was aggregated then compared in the hpcsQuant file to generate the figures.
+The information was aggregated and compared in the `hpcsQuant-rev.ipynb` file to generate the figures.
 
-We used the panCancerEnv.yml to create a conda environment to run the files below.
+We used the `panCancerEnv.yml` to create a conda environment to run the files below.
 
-Generates data for Fig. 5 and Extended Data Fig. 17, 18.
+This Directory generates data for:
+- **Figure 5**
+- **Extended Data Figures 17 & 18**
 
 ### Information Table
 
@@ -66,14 +68,13 @@ Generates data for Fig. 5 and Extended Data Fig. 17, 18.
 | Skin          | mouseSkin                 | lower spike   | 5a,e; ED17a              | 38815020 |
 | Prostate      | mouseProstate             | Plasticity    | 5a,b,c,e; ED17a          | 35981096 |
 | Pancreas_T    | mousePancreas             | Basal         | 5a,b,c,e; ED17a          | 35952360 |
-| Pancreas_B    |                           |               | 5a; ED17a                | 33536616 | 
+| Pancreas_B    | mousePancreasB            |               | 5a; ED17a                | 33536616 | 
 | Breast        | mouseBreast               |               | 5a; ED17a                | 32840210 |
 | Lung          | makeLuadAdata             | HPCS          | 5a,b,c,e; ED17a; ED18a,b | 32707077 |
 | Lung          | mouseLung                 | DATP          | 5e; ED17a; ED18b,c       | 32750316 |
-| Lung          |                           | ADI           | 5e                       | 32678092 |
-| Lung          |                           | PATS          | 5e                       | 32661339 |
-| Skin Injury   |                           | wound         | 5e                       | 32187560 | 
-| Colon Injury  |                           | revSSR, revSC | 5e                       | 37162959 | 
+| Lung          | mouseLung                 | ADI           | 5e                       | 32678092 |
+| Lung          | mouseLung                 | PATS          | 5e                       | 32661339 |
+| Skin Injury   | regen_mouseSkin           | wound         | 5e                       | 32187560 | 
 |               |                           |               |                          |          |
 | **Human**     |                           |               |                          |          |
 | Colon         | humanColorectalPelka2021  |               | 5a; ED17a                | 34450029 |
@@ -85,9 +86,12 @@ Generates data for Fig. 5 and Extended Data Fig. 17, 18.
 | Lung          | humanLungKim              |               | 5a,c; ED17a              | 32385277 |
 | Lung          | humanLungBischoff         |               | 5a,c; ED17a              | 34663877 |
 | Lung          | humanLungDost             |               | 5a,c; ED17a              | 32891189 |
-| HeadandNeck_C |                           |               | 5a,c; ED17a              | 34921143 |
-| HeadandNeck_K |                           |               | 5a,c; ED17a              | 32686767 |
-| Ovarian       |                           |               | 5a,c; ED17a              | 35196078 |
+| HeadandNeck_C | humanHead-and-Neck        |               | 5a,c; ED17a              | 34921143 |
+| HeadandNeck_K | humanHead-and-Neck_K      |               | 5a,c; ED17a              | 32686767 |
+| Ovarian       | humanOvarianQ             |               | 5a,c; ED17a              | 35196078 |
+| Hematologic(MM) | humanHematologic_L      |               |                          | 33963182 |
+| Hematologic(ALL)| humanHematologic        |               |                          | 32415257 |
+| Colon Injury  | regen_humanIntestine      | revSSR, revSC | 5e                       | 37162959 | 
 |               |                           |               |                          |          |
 | **Pan Cancer** |                          |               |                          |          |
 | Yanai         |                           | Stress        | ED17a                    | 35931863 |
