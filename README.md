@@ -22,7 +22,7 @@ _Part1.conda.env_ - Conda package list used to analyze data from Part 1. Use "co
    4. **_IGO16686_** - Contains the Jupyter notebook to process FACS sorted 12 week + 3 days _KP Slc4a11<sup>MCD/+</sup> Rosa26<sup>mTmG/+</sup>_ tumors traced for 3 days post Tamoxifen.
    5. **_IGO17402_** - Contains the Jupyter notebook to process FACS sorted 6 week + 3 days _KP Slc4a11<sup>MCD/+</sup> Rosa26<sup>mTmG/+</sup>_ tumors traced for 3 days post Tamoxifen.  Also contains FACS sorted 12 week + 3 days _KP Hopx<sup>MACD/+</sup> Rosa26<sup>mTmG/+</sup>_ tumors traced for 3 days post Tamoxifen.
    6. **_IGO17543_** - Contains the Jupyter notebook to process KPfrt Hopx-MACD/+ Rosa26-mTmG/+ tumors harvested 12 weeks post tumor induction after 14 days of tracing induction with Tamoxifen.
-   7. **_IGO15600\_IGO15601\_IGO15771\_IGO16686\_combined_** - Contains the Jupyter notebook to concatenate IGO15600, IGO15601, and IGO15771. Run after processing the code in IGO15600, IGO15601, and IGO15771.
+   7. **_IGO15600\_IGO15601\_IGO15771\_IGO16686\_IGO17402\_IGO17543\_combined_** - Contains the Jupyter notebook to concatenate IGO15600, IGO15601, and IGO15771. Run after processing the code in IGO15600, IGO15601, and IGO15771.
 
 **_untraced_control_** - Contains Jupyter notebooks to process _KPT_ tumors that are untraced.  
   1. **_IGO15488\_1_** - Contains the Jupyter notebook to process FACS sorted 14 week _KP Rosa26<sup>tdTomato/+</sup>_ tumors.  
@@ -51,11 +51,13 @@ We downloaded publicly available scRNA-seq data from mouse and human studies acr
 
 Each dataset was downloaded individually then quality control and analysis was done per dataset as run in the associated python notebook. 
 
-Then the information was aggregated then compared in the hpcsQuant file to generate the figures.
+The information was aggregated and compared in the `hpcsQuant-rev.ipynb` file to generate the figures.
 
-We used the panCancerEnv.yml to create a conda environment to run the files below.
+We used the `panCancerEnv.yml` to create a conda environment to run the files below.
 
-Generates data for Fig. 5 and Extended Data Fig. 17, 18.
+This Directory generates data for:
+- **Figure 5**
+- **Extended Data Figures 17 & 18**
 
 ### Information Table
 
@@ -66,14 +68,13 @@ Generates data for Fig. 5 and Extended Data Fig. 17, 18.
 | Skin          | mouseSkin                 | lower spike   | 5a,e; ED17a              | 38815020 |
 | Prostate      | mouseProstate             | Plasticity    | 5a,b,c,e; ED17a          | 35981096 |
 | Pancreas_T    | mousePancreas             | Basal         | 5a,b,c,e; ED17a          | 35952360 |
-| Pancreas_B    |                           |               | 5a; ED17a                | 33536616 | 
+| Pancreas_B    | mousePancreasB            |               | 5a; ED17a                | 33536616 | 
 | Breast        | mouseBreast               |               | 5a; ED17a                | 32840210 |
 | Lung          | makeLuadAdata             | HPCS          | 5a,b,c,e; ED17a; ED18a,b | 32707077 |
 | Lung          | mouseLung                 | DATP          | 5e; ED17a; ED18b,c       | 32750316 |
-| Lung          |                           | ADI           | 5e                       | 32678092 |
-| Lung          |                           | PATS          | 5e                       | 32661339 |
-| Skin Injury   |                           | wound         | 5e                       | 32187560 | 
-| Colon Injury  |                           | revSSR, revSC | 5e                       | 37162959 | 
+| Lung          | mouseLung                 | ADI           | 5e                       | 32678092 |
+| Lung          | mouseLung                 | PATS          | 5e                       | 32661339 |
+| Skin Injury   | regen_mouseSkin           | wound         | 5e                       | 32187560 | 
 |               |                           |               |                          |          |
 | **Human**     |                           |               |                          |          |
 | Colon         | humanColorectalPelka2021  |               | 5a; ED17a                | 34450029 |
@@ -85,11 +86,14 @@ Generates data for Fig. 5 and Extended Data Fig. 17, 18.
 | Lung          | humanLungKim              |               | 5a,c; ED17a              | 32385277 |
 | Lung          | humanLungBischoff         |               | 5a,c; ED17a              | 34663877 |
 | Lung          | humanLungDost             |               | 5a,c; ED17a              | 32891189 |
-| HeadandNeck_C |                           |               | 5a,c; ED17a              | 34921143 |
-| HeadandNeck_K |                           |               | 5a,c; ED17a              | 32686767 |
-| Ovarian       |                           |               | 5a,c; ED17a              | 35196078 |
+| HeadandNeck_C | humanHead-and-Neck        |               | 5a,c; ED17a              | 34921143 |
+| HeadandNeck_K | humanHead-and-Neck_K      |               | 5a,c; ED17a              | 32686767 |
+| Ovarian       | humanOvarianQ             |               | 5a,c; ED17a              | 35196078 |
+| Hematologic(MM) | humanHematologic_L      |               |                          | 33963182 |
+| Hematologic(ALL)| humanHematologic        |               |                          | 32415257 |
+| Colon Injury  | regen_humanIntestine      | revSSR, revSC | 5e                       | 37162959 | 
 |               |                           |               |                          |          |
-| **Pan Caner** |                           |               |                          |          |
+| **Pan Cancer** |                          |               |                          |          |
 | Yanai         |                           | Stress        | ED17a                    | 35931863 |
 | Tirosh        |                           | Stress        | 5a                       | 37258682 |
 
