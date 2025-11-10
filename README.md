@@ -7,11 +7,15 @@ _Requirements_: SCANPY, AnnData, Scipy
 
 All generated sequencing data and count matrices are available at the NCBI Gene-Expression Omnibus under accession record GSE277777.
 
-_Part1.conda.env_ - Conda package list used to analyze data from Part 1. Use "conda create --name <env> --file Part1.conda.env" to recreate the environment used to analyze the data in from this section.  Data originally run on a conda environment within an Intel Mac OS X environment.
+Note: the original code was run on an Intel OS X 64-bit architecture. To recreate the figures, statistics, and cluster labeling for Part 1 will require a native Intel 64-bit OS X installation; use the Part1.osx64-native.yml file below.
+
+_Part1.osx64-native.yml_ - Conda package list used to analyze data from Part 1. Use "conda env create -f Part1.osx64-native.yml" to recreate the environment used to analyze the data in from this section.  Data originally run on a conda environment within an Intel 64-bit Mac OS X environment. Rosetta emulation will fail with 02_Marjanovic.ipynb file.
+
+_Part1.other.yml_ - Conda package that will allow installation on Apple Silicon machines. Use "conda env create -f Part1.osx64-native.yml" to recreate the environment. Differences will occur between cluster generation and labeling due to differences in the default calculations for the underlying packages.
 
 ![Part I Summary Image](Part1_Overview.png)
 
-**_Marjanovic\_et\_al\_2020_** - Contains the Jupyter notebook to process the data from Marjanovic*, Hofree*, Chan* et al., Cancer Cell 2020. A prerequisite to classify the cell states required to generate the figures in the paper. Creates data for Extended Data Fig. 6 and 13.
+**_Marjanovic\_et\_al\_2020_** - Contains the Jupyter notebook to process the data from Marjanovic*, Hofree*, Chan* et al., Cancer Cell 2020. A prerequisite to classify the cell states required to generate the figures in the paper. Creates data for Extended Data Fig. 6 and 13. Note: the original data was analyzed using a native Intel 64-bit OS X environment. An emulated environment or arm64 environment will produce different clusterings, etc. which will necessitate the need for manual curation of cluster labeling.
 
 **_IGO14143_-Validation of Reporter** - Contains the Jupyter notebook to process FACS sorted 16 week _KP Slc4a11<sup>MCD/+</sup> Hipp11<sup>GGCB/+<sup>_ tumors traced for 2 weeks post Tamoxifen. Generates data for Figure 1, validation of the _Slc4a11<sup>MCD/+</sup>_ reporter.  
 

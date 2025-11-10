@@ -1,5 +1,6 @@
 #recreate with
-#conda env create -f Part1.conda.yml
+#conda env create -f Part1.osx64-native.yml
+#note: this was the original conda environment used to analyze the single cell data in Chan*, Pan*, et al., Nature 2025. Machine requirements: Intel OS X 64-bit architecture. This will not install on linux or Apple silicon
 name: part1-cellrank
 channels:
   - conda-forge

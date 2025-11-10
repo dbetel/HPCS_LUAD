@@ -1,0 +1,75 @@
+#recreate with
+#conda env create -f Part1.other.yml
+#note: this will work with Apple OS X arm64, however, it will generate slight differences that affect clustering and hence, the statistics and labels may be different and need to be modified
+name: part1-cellrank-other
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+
+# Allow clobbering for gfortran packages
+variables:
+  CONDA_ALLOW_SOFTLINKS: "true"
+dependencies:
+  - python=3.11
+  
+  # Python scientific stack (pin numpy to prevent pip upgrade)
+  - numpy=1.26
+  - pandas
+  - matplotlib-base
+  - scipy
+  - scikit-learn
+  
+  # Core single-cell packages
+  # NOTE: We install these via conda but they should NOT pull in JAX
+  - anndata
+  - scanpy
+  - leidenalg
+  - igraph
+  - umap-learn
+  - pynndescent
+  
+  # These might pull in JAX so we'll install via pip instead:
+  # - cellrank (will install via pip)
+  # - scvelo (will install via pip)
+  # - palantir (will install via pip)
+  
+  # Jupyter
+  - jupyterlab
+  
+  # R and rpy2
+  - r-base>=4.4
+  - rpy2
+  - r-seurat
+  - r-ggplot2
+  - r-dplyr
+  - r-tidyr
+  - rpy2>=3.5 
+  - r-mgcv 
+  - r-mass 
+  - r-matrix 
+  - r-splines2
+  
+  # Bioconductor
+  - bioconductor-biocgenerics
+  - bioconductor-singlecellexperiment
+  - bioconductor-summarizedexperiment
+  - pip  
+  - pip:
+    - jax>=0.4.43
+    - jaxlib>=0.4.43
+    - flax>=0.10,<0.11
+    - ott-jax==0.5.1
+    - moscot>=0.4.3,<0.5
+    # Install JAX ecosystem compatible with moscot 0.4.2
+    #- jax==0.4.38
+    #- jaxlib==0.4.38
+    #- flax<0.10
+    #- ott-jax==0.4.6
+    #- moscot==0.4.2
+    - cloudpickle
+    - rich
+    # Finally install the packages that might have pulled in conda JAX
+    - cellrank
+    - scvelo
+    - palantir
