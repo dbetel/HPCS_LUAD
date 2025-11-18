@@ -26,7 +26,7 @@ _Part1.other.yml_ - Conda package that will allow installation on Apple Silicon 
    3. **_IGO15771_** - Contains the Jupyter notebook to process FACS sorted 14 week _KP Slc4a11<sup>MCD/+</sup> Rosa26<sup>mTmG/+</sup>_ tumors traced for 2 weeks post Tamoxifen.  
    4. **_IGO16686_** - Contains the Jupyter notebook to process FACS sorted 12 week + 3 days _KP Slc4a11<sup>MCD/+</sup> Rosa26<sup>mTmG/+</sup>_ tumors traced for 3 days post Tamoxifen.
    5. **_IGO17402_** - Contains the Jupyter notebook to process FACS sorted 6 week + 3 days _KP Slc4a11<sup>MCD/+</sup> Rosa26<sup>mTmG/+</sup>_ tumors traced for 3 days post Tamoxifen.  Also contains FACS sorted 12 week + 3 days _KP Hopx<sup>MACD/+</sup> Rosa26<sup>mTmG/+</sup>_ tumors traced for 3 days post Tamoxifen.
-   6. **_IGO17543_** - Contains the Jupyter notebook to process KPfrt Hopx-MACD/+ Rosa26-mTmG/+ tumors harvested 12 weeks post tumor induction after 14 days of tracing induction with Tamoxifen.
+   6. **_IGO17543_** - Contains the Jupyter notebook to process _KP Hopx<sup>MACD/+</sup> Rosa26<sup>mTmG/+</sup>_ tumors harvested 12 weeks post tumor induction after 14 days of tracing induction with Tamoxifen.
    7. **_IGO15600\_IGO15601\_IGO15771\_IGO16686\_IGO17402\_IGO17543\_combined_** - Contains the Jupyter notebook to concatenate IGO15600, IGO15601, IGO15771, IGO16686, IGO17402, and IGO17543. Run after processing the code in those subdirectories.
 
 **_depletion_** - Contains the Jupyter notebooks to process _KP Slc4a11<sup>MCD/+</sup> Rosa26<sup>GGCB/+</sup>_ tumors ablated using diphtheria toxin.  
@@ -46,7 +46,7 @@ _Part1.other.yml_ - Conda package that will allow installation on Apple Silicon 
 
 **_IGO16318-Hopx-MACD-validation_** - Contains the Jupyter notebook to process FACS sorted 16 week _KP Hopx<sup>MACD/+</sup> Hipp11<sup>GGCB/+</sup>_ tumors.
 
-**_tracing\_depletion\_analysis_** - Contains the Jupyter notebooks to process depletion cohort (IGO15123\_IGO15342\_combined), traced cohort (IGO15600\_IGO15601\_IGO15771\_IGO16686\_IGO17402\_IGO17543), and untraced control cohort (IGO15488_1_2 and IGO16318) in a uniform manner. Generates data for Fig. 1, and 2, as well as Extended Data Fig. 2, 4, 5, 6, 7, and 12.
+**_tracing\_depletion\_analysis_** - Contains the Jupyter notebooks to process the depletion cohort (IGO15123\_IGO15342\_combined), traced cohort (IGO15600\_IGO15601\_IGO15771\_IGO16686\_IGO17402\_IGO17543), untraced control cohort (IGO15488_1_2) and _KP Hopx<sup>MACD/+</sup> Hipp11<sup>GGCB/+</sup>_ cohort (IGO16318) in a uniform manner. Generates data for Fig. 1, and 2, as well as Extended Data Fig. 2, 4, 5, 6, 7, and 12.
 
 **_transplant\_model_** - Contains the Jupyter notebook to concatenate and process FACS sorted IV transplanted _KPfrt Slc4a11<sup>MACD/+</sup>_ cells treated with Saline or DT for 7 days. Generates data for Extended Data Fig. 9.
 
