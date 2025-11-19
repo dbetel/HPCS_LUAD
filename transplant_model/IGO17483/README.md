@@ -7,6 +7,7 @@ _Requirements_: SCANPY, AnnData, Scipy
 
 All generated sequencing data and count matrices are available at the NCBI Gene-Expression Omnibus under accession record GSE277777.
 
-Process and combine the lanes used in the IV transplant model of a _KPfrt Slc4a11<sup>MACD/+</sup>_ cell line.
+Process and combine the lanes used in the IV transplant model of a _KPfrt Slc4a11<sup>MCD/+</sup>_ cell line.
 
-**_IGO17483_** - Contains the Jupyter notebook to process FACS sorted IV transplanted _KPfrt Slc4a11<sup>MACD/+</sup>_ cells treated with Saline or DT for 7 days. Run the IGO17483-Vehicle and IGO17483-DT notebooks before running the combined notebook.  Generates data for Extended Data Fig. 9n.
+**_01\_IGO17483-DT.ipynb_** - Contains the Jupyter notebook to process FACS sorted IV transplanted _KPfrt Slc4a11<sup>MCD/+</sup>_ cells treated with DT for 7 days.
+**_02\_IGO17483-Vehicle.ipynb_** - Contains the Jupyter notebook to process FACS sorted IV transplanted _KPfrt Slc4a11<sup>MCD/+</sup>_ cells treated with Vehicle for 7 days.
