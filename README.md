@@ -8,7 +8,7 @@ _Requirements_: SCANPY, AnnData, Scipy, Palantir, Cellrank v2
 
 ## Part 1 - Processing of 10x Single Cell Mouse Sequencing Data (recommended to run these in the order shown).
 
-All generated sequencing data and count matrices are available at the NCBI Gene-Expression Omnibus under accession record GSE277777.
+All generated sequencing data and count matrices are available at the NCBI Gene Expression Omnibus under accession record GSE277777.
 
 Note: the original code for Part 1 was run on an Intel OS X 64-bit architecture. To recreate the figures, statistics, and cluster labeling for Part 1 will require a native Intel 64-bit OS X installation; use the Part1.osx64-native.yml file below.
 
