@@ -48,7 +48,7 @@ _Part1.other.yml_ - Conda package that will allow installation on Apple Silicon 
 
 **_tracing\_depletion\_analysis_** - Contains the Jupyter notebooks to process the depletion cohort (IGO15123\_IGO15342\_combined), traced cohort (IGO15600\_IGO15601\_IGO15771\_IGO16686\_IGO17402\_IGO17543), untraced control cohort (IGO15488_1_2) and _KP Hopx<sup>MACD/+</sup> Hipp11<sup>GGCB/+</sup>_ cohort (IGO16318) in a uniform manner. Generates data for Fig. 1, and 2, as well as Extended Data Fig. 2, 4, 5, 6, 7, and 12.
 
-**_transplant\_model_** - Contains the Jupyter notebook to concatenate and process FACS sorted IV transplanted _KPfrt Slc4a11<sup>MACD/+</sup>_ cells treated with Saline or DT for 7 days. Generates data for Extended Data Fig. 9.
+**_transplant\_model_** - Contains the Jupyter notebook to concatenate and process FACS sorted IV transplanted _KPfrt Slc4a11<sup>MCD/+</sup>_ and _KP Hopx<sup>MACD/+</sup>_ cells treated with Saline or DT for 7 days. Generates data for Extended Data Fig. 9.
 
 ## Part 2 - Processing of previously published scRNA-seq data
 
