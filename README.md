@@ -8,7 +8,7 @@ _Requirements_: SCANPY, AnnData, Scipy, Palantir, Cellrank v2
 
 All generated sequencing data and count matrices are available at the NCBI Gene-Expression Omnibus under accession record GSE277777.
 
-Note: the original code was run on an Intel OS X 64-bit architecture. To recreate the figures, statistics, and cluster labeling for Part 1 will require a native Intel 64-bit OS X installation; use the Part1.osx64-native.yml file below.
+Note: the original code for Part 1 was run on an Intel OS X 64-bit architecture. To recreate the figures, statistics, and cluster labeling for Part 1 will require a native Intel 64-bit OS X installation; use the Part1.osx64-native.yml file below.
 
 _Part1.osx64-native.yml_ - Conda package list used to analyze data from Part 1. Use "conda env create -f Part1.osx64-native.yml" to recreate the environment used to analyze the data in from this section.  Data originally run on a conda environment within an Intel 64-bit Mac OS X environment. Note: Rosetta emulation will fail at the Palantir step with 02_Marjanovic.ipynb file due to underlying library requirements; also there will be slight differences between cluster labels necessitating manual intervention and evaluation.
 
@@ -52,7 +52,7 @@ _Part1.other.yml_ - Conda package that will allow installation on Apple Silicon 
 
 ## Part 2 - Processing of previously published scRNA-seq data
 
-We downloaded publicly available scRNA-seq data from mouse and human studies across different tissues including colon, skin, prostate, pancreas, and breast. Below is the breakdown of which files were used to analyze the data and the corresponding figures in the publication.
+We downloaded publicly available scRNA-seq data from mouse and human studies across different tissues including colon, skin, prostate, pancreas, and breast. Below is the breakdown of which files were used to analyze the data and the corresponding figures in the publication. 
 
 Each dataset was downloaded individually then quality control and analysis was done per dataset as run in the associated python notebook. 
 
