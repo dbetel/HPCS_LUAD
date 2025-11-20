@@ -14,7 +14,7 @@ Note: the original code for Part 1 was run on an Intel OS X 64-bit architecture.
 
 _Part1.osx64-native.yml_ - Conda package list used to analyze data from Part 1. Use "conda env create -f Part1.osx64-native.yml" to recreate the environment used to analyze the data in this section.  Data was originally run in a conda environment in a Intel 64-bit Mac OS X environment. Note: Rosetta emulation will fail at the Palantir step within 02_Marjanovic.ipynb file due to underlying library requirements; also there will be slight differences between cluster labels necessitating manual intervention and evaluation in other notebooks.
 
-_Part1.other.yml_ - Conda package that will allow installation on Apple Silicon and Linux machines. Use "conda env create -f Part1.other.yml" to recreate the environment. Differences may occur between cluster generation and labeling due to differences in the default calculations for the underlying packages and manual intervention and analysis may be required.
+_Part1.other.yml_ - Conda package that will allow installation on Apple Silicon and Linux machines. Use "conda env create -f Part1.other.yml" to recreate the environment. Differences may occur between cluster generation and labeling due to differences in the default calculations for the underlying packages and manual intervention and analysis will be required.
 
 ![Part I Summary Image](Part1_Overview.png)
 
