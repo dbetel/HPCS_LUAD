@@ -1,5 +1,5 @@
 # HPCS_LUAD
-Code base to analyze a high-plasticity cell state in lung adenocarcinoma by Chan*, Pan* et. al. 
+Code base to analyze data from "Critical role for a high-plasticity cell state in lung cancer" by Chan*, Pan* et. al. 
 
 The code base has a permenant home located at [https://github.com/dbetel/HPCS_LUAD](https://github.com/dbetel/HPCS_LUAD)
 
