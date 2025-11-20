@@ -1,19 +1,20 @@
 # HPCS_LUAD
-Code base for high-plasticity cell state in lung adenocarcinoma study by Chan*, Pan* et. al. 
+Code base to analyze a high-plasticity cell state in lung adenocarcinoma by Chan*, Pan* et. al. 
+
+The code base has a permenant home located at [https://github.com/dbetel/HPCS_LUAD](https://github.com/dbetel/HPCS_LUAD)
 
 _Requirements_: SCANPY, AnnData, Scipy, Palantir, Cellrank v2
 (note all package dependencies and versions are located within the Conda yml files)
 
 ## Part 1 - Processing of 10x Single Cell Mouse Sequencing Data (recommended to run these in the order shown).
 
-All generated sequencing data and count matrices are available at the NCBI Gene-Expression Omnibus under accession record GSE277777.
+All generated sequencing data and count matrices are available at the NCBI Gene Expression Omnibus under accession record GSE277777.
 
-Note: the original code was run on an Intel OS X 64-bit architecture. To recreate the figures, statistics, and cluster labeling for Part 1 will require a native Intel 64-bit OS X installation; use the Part1.osx64-native.yml file below.
+Note: the original code for Part 1 was run on an Intel OS X 64-bit architecture. To recreate the figures, statistics, and cluster labeling for Part 1 will require a native Intel 64-bit OS X installation; use the Part1.osx64-native.yml file below.
 
-_Part1.osx64-native.yml_ - Conda package list used to analyze data from Part 1. Use "conda env create -f Part1.osx64-native.yml" to recreate the environment used to analyze the data in from this section.  Data originally run on a conda environment within an Intel 64-bit Mac OS X environment. 
-	- Note: Rosetta emulation will fail at the Palantir step with 02_Marjanovic.ipynb file due to underlying library requirements; also there will be slight differences on cluster labels necessitating manual intervention and evaluation.
+_Part1.osx64-native.yml_ - Conda package list used to analyze data from Part 1. Use "conda env create -f Part1.osx64-native.yml" to recreate the environment used to analyze the data in this section.  Data was originally run in a conda environment in a Intel 64-bit Mac OS X environment. Note: Rosetta emulation will fail at the Palantir step within 02_Marjanovic.ipynb file due to underlying library requirements; also there will be slight differences between cluster labels necessitating manual intervention and evaluation in other notebooks.
 
-_Part1.other.yml_ - Conda package that will allow installation on Apple Silicon and Linux machines. Use "conda env create -f Part1.other.yml" to recreate the environment. Differences will occur between cluster generation and labeling due to differences in the default calculations for the underlying packages and thus manual intervention and analysis will be required.
+_Part1.other.yml_ - Conda package that will allow installation on Apple Silicon and Linux machines. Use "conda env create -f Part1.other.yml" to recreate the environment. Differences may occur between cluster generation and labeling due to differences in the default calculations for the underlying packages and manual intervention and analysis may be required.
 
 ![Part I Summary Image](Part1_Overview.png)
 
@@ -27,7 +28,7 @@ _Part1.other.yml_ - Conda package that will allow installation on Apple Silicon 
    3. **_IGO15771_** - Contains the Jupyter notebook to process FACS sorted 14 week _KP Slc4a11<sup>MCD/+</sup> Rosa26<sup>mTmG/+</sup>_ tumors traced for 2 weeks post Tamoxifen.  
    4. **_IGO16686_** - Contains the Jupyter notebook to process FACS sorted 12 week + 3 days _KP Slc4a11<sup>MCD/+</sup> Rosa26<sup>mTmG/+</sup>_ tumors traced for 3 days post Tamoxifen.
    5. **_IGO17402_** - Contains the Jupyter notebook to process FACS sorted 6 week + 3 days _KP Slc4a11<sup>MCD/+</sup> Rosa26<sup>mTmG/+</sup>_ tumors traced for 3 days post Tamoxifen.  Also contains FACS sorted 12 week + 3 days _KP Hopx<sup>MACD/+</sup> Rosa26<sup>mTmG/+</sup>_ tumors traced for 3 days post Tamoxifen.
-   6. **_IGO17543_** - Contains the Jupyter notebook to process _KP Hopx<sup>MACD/+</sup> Rosa26<sup>mTmG/+</sup>_ tumors harvested 12 weeks post tumor induction after 14 days of tracing induction with Tamoxifen.
+   6. **_IGO17543_** - Contains the Jupyter notebook to process _KP Hopx<sup>MACD/+</sup> Rosa26<sup>mTmG/+</sup>_ tumors harvested 12 weeks post tumor induction after 14 days of tracing post Tamoxifen.
    7. **_IGO15600\_IGO15601\_IGO15771\_IGO16686\_IGO17402\_IGO17543\_combined_** - Contains the Jupyter notebook to concatenate IGO15600, IGO15601, IGO15771, IGO16686, IGO17402, and IGO17543. Run after processing the code in those subdirectories.
 
 **_depletion_** - Contains the Jupyter notebooks to process _KP Slc4a11<sup>MCD/+</sup> Rosa26<sup>GGCB/+</sup>_ tumors ablated using diphtheria toxin.  
@@ -49,11 +50,11 @@ _Part1.other.yml_ - Conda package that will allow installation on Apple Silicon 
 
 **_tracing\_depletion\_analysis_** - Contains the Jupyter notebooks to process the depletion cohort (IGO15123\_IGO15342\_combined), traced cohort (IGO15600\_IGO15601\_IGO15771\_IGO16686\_IGO17402\_IGO17543), untraced control cohort (IGO15488_1_2) and _KP Hopx<sup>MACD/+</sup> Hipp11<sup>GGCB/+</sup>_ cohort (IGO16318) in a uniform manner. Generates data for Fig. 1, and 2, as well as Extended Data Fig. 2, 4, 5, 6, 7, and 12.
 
-**_transplant\_model_** - Contains the Jupyter notebook to concatenate and process FACS sorted IV transplanted _KPfrt Slc4a11<sup>MACD/+</sup>_ cells treated with Saline or DT for 7 days. Generates data for Extended Data Fig. 9.
+**_transplant\_model_** - Contains the Jupyter notebook to concatenate and process FACS sorted IV transplanted _KPfrt Slc4a11<sup>MCD/+</sup>_ and _KP Hopx<sup>MACD/+</sup>_ cells treated with Saline or DT for 7 days. Generates data for Extended Data Fig. 9.
 
 ## Part 2 - Processing of previously published scRNA-seq data
 
-We downloaded publicly available scRNA-seq data from mouse and human studies across different tissues including colon, skin, prostate, pancreas, and breast. Below is the breakdown of which files were used to analyze the data and the corresponding figures in the publication.
+We downloaded publicly available scRNA-seq data from mouse and human studies across different tissues including colon, skin, prostate, pancreas, and breast. Below is the breakdown of which files were used to analyze the data and the corresponding figures in the publication. 
 
 Each dataset was downloaded individually then quality control and analysis was done per dataset as run in the associated python notebook. 
 
