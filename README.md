@@ -18,7 +18,7 @@ _Part1.other.yml_ - Conda package that will allow installation on Apple Silicon 
 
 ![Part I Summary Image](Part1_Overview.png)
 
-**_Marjanovic\_et\_al\_2020_** - Contains the Jupyter notebook to process the data from Marjanovic*, Hofree*, Chan* et al., Cancer Cell 2020. A prerequisite to classify the cell states required to generate the figures in the paper. Creates data for Extended Data Fig. 4 and 8. Note: the original data was analyzed using a native Intel 64-bit OS X environment. An emulated environment or arm64 environment will produce different clusterings, etc. which will necessitate the need for manual curation of cluster labeling.
+**_Marjanovic\_et\_al\_2020_** - Contains the Jupyter notebook to process the data from Marjanovic*, Hofree*, Chan* et al., Cancer Cell 2020. A prerequisite to classify the cell states required to generate the figures in the paper. Creates data for Extended Data Fig. 4 and 8. Note: the original data was analyzed using a native Intel 64-bit OS X environment. A different environment (i.e. emulated, arm64, linux) will produce different clusterings, etc. which will necessitate the need for manual curation of cluster labeling.  This notebook requires data from [GSE154989](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE154989).
 
 **_IGO14143_-Validation of Reporter** - Contains the Jupyter notebook to process FACS sorted 16 week _KP Slc4a11<sup>MCD/+</sup> Hipp11<sup>GGCB/+<sup>_ tumors traced for 2 weeks post Tamoxifen. Generates data for Extended Data Figure 2, validation of the _Slc4a11<sup>MCD/+</sup>_ reporter.  
 
