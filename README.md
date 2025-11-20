@@ -10,11 +10,11 @@ _Requirements_: SCANPY, AnnData, Scipy, Palantir, Cellrank v2
 
 All generated sequencing data and count matrices are available at the NCBI Gene Expression Omnibus under accession record GSE277777.
 
-Note: the original code for Part 1 was run on an Intel OS X 64-bit architecture. To recreate the figures, statistics, and cluster labeling for Part 1 will require a native Intel 64-bit OS X installation; use the Part1.osx64-native.yml file below.
+Note: the original code for Part 1 was run on an Intel OS X 64-bit architecture. To recreate the figures, statistics, and cluster labeling for Part 1 will require a native Intel 64-bit OS X installation; use the `Part1.osx64-native.yml` file below.
 
-_Part1.osx64-native.yml_ - Conda package list used to analyze data from Part 1. Use "conda env create -f Part1.osx64-native.yml" to recreate the environment used to analyze the data in this section.  Data was originally run in a conda environment in a Intel 64-bit Mac OS X environment. Note: Rosetta emulation is incompatible with Palantir within the Marjanovic_et_al_2020/02_Marjanovic.ipynb notebook due to underlying library requirements; there will also be slight differences between cluster labels necessitating manual intervention and evaluation in other notebooks.
+`Part1.osx64-native.yml` - Conda package list used to analyze data from Part 1. Use "conda env create -f Part1.osx64-native.yml" to recreate the environment used to analyze the data in this section.  Data was originally run in a conda environment in a Intel 64-bit Mac OS X environment. Note: Rosetta emulation is incompatible with Palantir within the `Marjanovic_et_al_2020/02_Marjanovic.ipynb` notebook due to underlying library requirements; there will also be slight differences between cluster labels necessitating manual intervention and evaluation in other notebooks.
 
-_Part1.other.yml_ - Conda package that will allow installation on Apple Silicon and Linux machines. Use "conda env create -f Part1.other.yml" to recreate the environment. Differences may occur between cluster generation and labeling due to differences in the default calculations for the underlying packages and manual intervention and analysis will be required.
+`Part1.other.yml` - Conda package that will allow installation on Apple Silicon and Linux machines. Use "conda env create -f Part1.other.yml" to recreate the environment. Differences may occur between cluster generation and labeling due to differences in the default calculations for the underlying packages and manual intervention and analysis will be required.
 
 ![Part I Summary Image](Part1_Overview.png)
 
