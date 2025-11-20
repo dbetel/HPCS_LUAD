@@ -1,7 +1,8 @@
 # HPCS_LUAD
 Code base for high-plasticity cell state in lung adenocarcinoma study by Chan*, Pan* et. al. 
 
-_Requirements_: SCANPY, AnnData, Scipy
+_Requirements_: SCANPY, AnnData, Scipy, Palantir, Cellrank v2
+(note all package dependencies and versions are located within the Conda yml files)
 
 ## Part 1 - Processing of 10x Single Cell Mouse Sequencing Data (recommended to run these in the order shown).
 
@@ -12,7 +13,7 @@ Note: the original code was run on an Intel OS X 64-bit architecture. To recreat
 _Part1.osx64-native.yml_ - Conda package list used to analyze data from Part 1. Use "conda env create -f Part1.osx64-native.yml" to recreate the environment used to analyze the data in from this section.  Data originally run on a conda environment within an Intel 64-bit Mac OS X environment. 
 	- Note: Rosetta emulation will fail at the Palantir step with 02_Marjanovic.ipynb file due to underlying library requirements; also there will be slight differences on cluster labels necessitating manual intervention and evaluation.
 
-_Part1.other.yml_ - Conda package that will allow installation on Apple Silicon machines. Use "conda env create -f Part1.other.yml" to recreate the environment. Differences will occur between cluster generation and labeling due to differences in the default calculations for the underlying packages and thus manual intervention will be required.
+_Part1.other.yml_ - Conda package that will allow installation on Apple Silicon and Linux machines. Use "conda env create -f Part1.other.yml" to recreate the environment. Differences will occur between cluster generation and labeling due to differences in the default calculations for the underlying packages and thus manual intervention and analysis will be required.
 
 ![Part I Summary Image](Part1_Overview.png)
 
