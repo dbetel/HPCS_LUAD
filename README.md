@@ -3,8 +3,6 @@ Code base to analyze a high-plasticity cell state in lung adenocarcinoma by Chan
 
 The code base has a permenant home located at [https://github.com/dbetel/HPCS_LUAD](https://github.com/dbetel/HPCS_LUAD)
 
-All generated sequencing data and count matrices are available at the NCBI Gene Expression Omnibus under accession record GSE277777.
-
 _Requirements_: SCANPY, AnnData, Scipy, Palantir, Cellrank v2
 (note all package dependencies and versions are located within the Conda yml files)
 
