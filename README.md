@@ -10,8 +10,7 @@ All generated sequencing data and count matrices are available at the NCBI Gene-
 
 Note: the original code was run on an Intel OS X 64-bit architecture. To recreate the figures, statistics, and cluster labeling for Part 1 will require a native Intel 64-bit OS X installation; use the Part1.osx64-native.yml file below.
 
-_Part1.osx64-native.yml_ - Conda package list used to analyze data from Part 1. Use "conda env create -f Part1.osx64-native.yml" to recreate the environment used to analyze the data in from this section.  Data originally run on a conda environment within an Intel 64-bit Mac OS X environment. 
-	- Note: Rosetta emulation will fail at the Palantir step with 02_Marjanovic.ipynb file due to underlying library requirements; also there will be slight differences on cluster labels necessitating manual intervention and evaluation.
+_Part1.osx64-native.yml_ - Conda package list used to analyze data from Part 1. Use "conda env create -f Part1.osx64-native.yml" to recreate the environment used to analyze the data in from this section.  Data originally run on a conda environment within an Intel 64-bit Mac OS X environment. Note: Rosetta emulation will fail at the Palantir step with 02_Marjanovic.ipynb file due to underlying library requirements; also there will be slight differences between cluster labels necessitating manual intervention and evaluation.
 
 _Part1.other.yml_ - Conda package that will allow installation on Apple Silicon and Linux machines. Use "conda env create -f Part1.other.yml" to recreate the environment. Differences will occur between cluster generation and labeling due to differences in the default calculations for the underlying packages and thus manual intervention and analysis will be required.
 
